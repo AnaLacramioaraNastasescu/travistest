@@ -1,9 +1,11 @@
 language: java
-
 jdk:
-
-  - openjdk8
-
-script: 
-
-  - ant build
+- openjdk8
+addons:
+sonarcloud:
+organization: AnaLacramioaraNastasescu
+token:
+secure: travis encrypt cdcc0d9e0acaa840502013a42554b6fbca6f16e3
+script:
+- ant build
+- sonar-scanner
