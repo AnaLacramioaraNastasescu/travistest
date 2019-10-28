@@ -3,7 +3,7 @@ jdk:
     - openjdk8
 addons:
     sonarcloud:
-        organization: AnaLacramioaraNastasescu
+        organization: 252931
         token:
             secure: "cdcc0d9e0acaa840502013a42554b6fbca6f16e3"
 script:
