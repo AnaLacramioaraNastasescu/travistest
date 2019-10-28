@@ -5,7 +5,7 @@ addons:
 sonarcloud:
 organization: 0252931
 token:
-secure: travis encrypt cdcc0d9e0acaa840502013a42554b6fbca6f16e3
+secure: "cdcc0d9e0acaa840502013a42554b6fbca6f16e3"
 script:
 - ant build
 - sonar-scanner
